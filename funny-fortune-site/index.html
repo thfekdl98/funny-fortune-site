@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>웃긴 운세</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>오늘의 웃긴 운세</h1>
+  </header>
+  <main>
+    <div class="container">
+      <!-- 광고 영역 -->
+      <div class="ad" id="ad-container">
+        <p>광고를 시청한 후 운세를 확인하세요!</p>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-xxxxxxxxxx" <!-- 본인의 AdSense Client ID -->
+             data-ad-slot="1234567890" <!-- 본인의 Ad Slot -->
+             data-ad-format="auto"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+
+      <!-- 운세 표시 -->
+      <h2 id="fortune">운세를 확인해보세요!</h2>
+      <button id="explain-btn" class="hidden" disabled>운세 설명 보기</button>
+      <div id="detailed-explanation" class="hidden"></div>
+
+      <!-- 추가 광고 클릭 영역 -->
+      <div id="extra-ad-container" class="hidden">
+        <p>추가로 더 알고 싶다면 광고를 클릭하세요!</p>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-xxxxxxxxxx"
+             data-ad-slot="9876543210"
+             data-ad-format="auto"></ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+      </div>
+      <div id="extra-info" class="hidden"></div>
+    </div>
+  </main>
+  <footer>
+    <p>© 2025 웃긴 운세. 오늘도 웃음을 잃지 마세요!</p>
+  </footer>
+</body>
+</html>
